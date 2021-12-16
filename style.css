@@ -10,28 +10,29 @@
     content: "";
     display: block;
     clear: both;
+    
 }
 /* Fine regola generale */
 
 /* Inizio header */
 header{    
     margin-bottom: 20px;
-    min-height: 100px;     
+    min-height: 100px;      
 } 
 .logo{
     width: 100px; 
     padding-right: 5px;    
     border-right: 1px solid rgb(219, 219, 219);    
 }
-
 a{
+    padding-left: 10px;
+    padding-right: 10px;
     text-decoration: none;
     color: rgb(172, 171, 171);
 }
 /* Fine header */
 
 /* Inizio main */
-
 /* Inizio section1 container */
 .section1{
     margin-top: 20px;      
@@ -119,8 +120,6 @@ h3{
     color: rgb(172, 171, 171);
     padding-top: 10px;
 }
-
-
 .col{
     float: left;
     min-height: 100px;
